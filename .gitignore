@@ -1,0 +1,54 @@
+# ==============================================================================
+# SECURITY & REPOSITORY HYGIENE IGNORE RULES
+# Clean Codebase & Markdown-Only Policy for Thesis Repository
+# ==============================================================================
+
+# Python & Environment Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
+
+# Word Documents, PDFs, Office Presentations (Excluded for clean code repository)
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.ppt
+~$*
+~*
+*.tmp
+
+# Datasets, Archives & Large Media
+data/
+datasets/
+raw_data/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+sumber_A_Malhari/
+sumber_B_CelebA/
+sumber_C_AnnoCerv/
+
+# Model Checkpoints, Weights & Snapshots
+*.h5
+*.ckpt
+*.pth
+*.pkl
+*.pb
+*.onnx
+*.bin
+checkpoint
+logs/
+wandb/
+
+# IDE, OS & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
